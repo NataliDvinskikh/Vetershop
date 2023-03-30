@@ -5,7 +5,7 @@ function GoodsList ({itemsForSale}) {
             const {id, name, searchTerm, price, image} = element;
             return (
                 <div key={id} className="product-card">
-                    <img src={image} width="400px" height="500px"/>
+                    <img src={image} width="400px" height="500px" alt="im"/>
                 <div className="product-info">
                     <h3>{name}</h3>
                     <h4> $ {price}</h4>
