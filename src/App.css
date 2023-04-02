@@ -144,4 +144,9 @@ h2 {
     padding: 12px;
     font-size: 15px;
   }
+
+  .img_about {
+    width: 250px;
+  }
+
 }
