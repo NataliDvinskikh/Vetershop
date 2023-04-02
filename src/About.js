@@ -42,7 +42,7 @@ const showTextClick = () => {
         </div>
       <div className="container">
       <button  className="btn"  onClick={previousPicture}> Previous </button>
-         <img src={photo} width="400px" alt ="place"/>
+         <img className="img_about" src={photo} width="400px" alt ="place"/>
         <button className="btn"  onClick={nextPicture}>Next</button>
       </div>
 

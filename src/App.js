@@ -14,7 +14,7 @@ function App () {
     <nav>
       <Link to ="/" className="link">Shop</Link>
       <Link to="/about" className="link">About</Link>
-      <Link to="/contact" className="link">Contac us</Link>
+      <Link to="/contact" className="link">Contact us</Link>
     </nav>
     <Routes>
       <Route path="/" element={<Home/>}/>

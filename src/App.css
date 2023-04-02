@@ -11,13 +11,17 @@ nav {
   font-weight:bold;
 }
 
+body {
+  background-color: #f6f6f6;
+  font-family: 'Cormorant Garamond', serif;
+}
+
 .link {
   padding: 10px 40px;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
 }
-
 
 .products {
   display: flex;
@@ -30,10 +34,6 @@ nav {
   flex-basis: 16%;
 }
 
-body {
-  background-color: #f6f6f6;
-  font-family: 'Cormorant Garamond', serif;
-}
 
 .cont {
   display: flex;
@@ -45,7 +45,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
 }
 
 .back {
@@ -55,7 +54,7 @@ body {
   margin-right: 20px;
 }
 
-.change {
+.change-btn {
   background-color: #c5ab8d;
   color: white;
   padding: 15px;
@@ -94,3 +93,55 @@ h2 {
 }
 
 
+@media all and (max-width:1000px) {
+
+  .img {
+    width: 300px;
+    height: 400px;
+  }
+  .description {
+    margin: 20px;
+    font-size: 15px;
+  }
+
+}
+
+
+
+@media all and (max-width:700px) {
+
+  .img {
+    width: 250px;
+    height: 350px;
+  }
+  .cont {
+  flex-wrap: wrap;
+  }
+  .img_about {
+    width: 300px;
+  }
+
+}
+
+@media all and (max-width:550px) {
+
+  .products {
+    display: flex;
+    justify-content: center;
+    padding-right: auto;
+  }
+
+  .product-card {
+    flex-grow: 0;
+  }
+
+  .link {
+    padding: 10px 35px;
+    font-size: 13px;
+  }
+
+  .change-btn {
+    padding: 12px;
+    font-size: 15px;
+  }
+}
